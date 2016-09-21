@@ -1,0 +1,131 @@
+#body
+{
+	background-color:#000000;
+}
+
+h1
+{
+	font-size:32px;
+	color:#FFFFFF;
+}
+
+li
+{
+	display:inline-block;
+}
+
+#leftContainers{
+	float:left;
+	width:30%;
+}
+
+#rightContainers{
+	float:left;
+	width:70%;
+}
+
+#rightArrow
+{
+	margin-left:710px;
+}
+
+#leftArrow,
+#rightArrow
+{
+	z-index:1;
+	width:50px;
+	opacity:0;
+	color:white;
+	background-color:#D9D9D9;
+	margin-top:20px;
+	height:50px;
+	position:absolute;
+	transition: all 0.5s ease-in-out;
+}
+
+#leftArrow:hover,
+#rightArrow:hover
+{
+	opacity:1;
+}
+
+
+#showPicture{
+	border-radius: 10px;
+	position:relative;
+	overflow: hidden;
+	margin-top:5%;
+	background:#FFFFFF;
+	height:90%;
+	width:80%;
+}
+#selectedImage{
+	position:relative;
+	margin-top:-20px;
+	height:70%;
+}
+#popup{
+	text-align:center;
+	height:100%;
+	width:100%;
+}
+
+#popup img{
+	margin-top:10%;
+	height:80%;
+	border-radius:10px;
+}
+
+#frame{
+	width:100%;
+	height:130px;
+	background-color:#D3D3D3;
+
+}
+
+#carousel{	
+	left:50%;
+	white-space: nowrap; 
+	font-size:30px;
+	text-align:center;
+	position:absolute;
+
+}
+
+#carousel img{
+	
+	opacity: 0.4;
+	border-radius:10px;
+	height:80px;
+	width:100px;
+}
+
+#carousel img:hover {
+    opacity: 1;
+}
+
+#findPic {
+	margin-top:10%;
+	width:100%;
+	height:40px;
+}
+
+#showTag{
+	width:10%;
+	margin-top:10%;
+}
+
+#tag{
+	width:200px;
+}
+
+#addtag{
+	width:25px;
+}
+
+#tagButton{
+	margin-top:30px;
+	width:170px;
+	height:70px;
+	margin-left:30px;
+}
